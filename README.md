@@ -18,7 +18,7 @@
 Предварительно создал .tf для автоматизации запуска ВМ в Яндекс.Облаке
 Позднее можно и заббикс перевести на автоматическую развертку, но пока вручную...
 
-![Скриншот-1](https://github.com/zelenkins/zabbix_hw/blob/main/img/1z.png)
+![Скриншот-1](https://github.com/zelenkins/zabbix_hw/blob/main/img/z1.png)
 
 #### Команды запуска
 ```bash
@@ -55,15 +55,15 @@ sudo systemctl enable zabbix-server zabbix-agent apache2
 
 ### Решение 2
 ##### Configuration > Hosts
-![Скриншот-2](https://github.com/zelenkins/zabbix_hw/blob/main/img/2z.png)
+![Скриншот-2](https://github.com/zelenkins/zabbix_hw/blob/main/img/z2.png)
 
 ##### Скриншот лога zabbix agent
 Здесь возник вопрос. Я четко вижу, что сервер работает с агентом, метрики приходят, агент активен (скрины ниже по заданию). Но в логах есть "Active check configuration update started to fail". Конфигурация менялась - только добавление ip сервера. Почему так?
-![Скриншот-3](https://github.com/zelenkins/zabbix_hw/blob/main/img/3z.png)
+![Скриншот-3](https://github.com/zelenkins/zabbix_hw/blob/main/img/z3.png)
 
 ##### Скриншот раздела Monitoring > Latest data
-![Скриншот-4](https://github.com/zelenkins/zabbix_hw/blob/main/img/3z.png)
-![Скриншот-5](https://github.com/zelenkins/zabbix_hw/blob/main/img/3z.png)
+![Скриншот-4](https://github.com/zelenkins/zabbix_hw/blob/main/img/z4.png)
+![Скриншот-5](https://github.com/zelenkins/zabbix_hw/blob/main/img/z5.png)
 
 ##### Команды 
 ```bash
