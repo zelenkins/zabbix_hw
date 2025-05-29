@@ -1,0 +1,27 @@
+# Локальные файлы Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfvars
+**/override.tf
+**/override.tfvars
+
+# Файлы блокировки и конфигов
+**/.terraform.lock.hcl
+**/.terraformrc
+**/terraform.rc
+
+# IDE и временные файлы
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*~
+
+# Логи и планы
+*.log
+plan.out
+*.plan
+
+.proveders.tf
+
