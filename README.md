@@ -58,8 +58,8 @@ sudo systemctl enable zabbix-server zabbix-agent apache2
 ![Скриншот-2](https://github.com/zelenkins/zabbix_hw/blob/main/img/z2.png)
 
 ##### Скриншот лога zabbix agent
-Здесь возник вопрос. Я четко вижу, что сервер работает с агентом, метрики приходят, агент активен (скрины ниже по заданию). Но в логах есть "Active check configuration update started to fail". Конфигурация менялась - только добавление ip сервера. Почему так?
-![Скриншот-3](https://github.com/zelenkins/zabbix_hw/blob/main/img/z3.png)
+Меняем Server и ServerActive в конфигах
+![Скриншот-3](https://github.com/zelenkins/zabbix_hw/blob/main/img/z6.png)
 
 ##### Скриншот раздела Monitoring > Latest data
 ![Скриншот-4](https://github.com/zelenkins/zabbix_hw/blob/main/img/z4.png)
